@@ -1,9 +1,10 @@
-# todoApp
-Download folder and express
-Install virtual environment: pip install virtualenv
-Called your virtual environment: virtualenv env
-cd env
-Run the project: python manage.py runserver
-If the server isn't working. let's migrate for database through two the code lines:
-    python manage.py makemigrations
-     python manage.py migrate
+1.	Chuyển đến đường dẫn của ứng dụng (Todo App) (dừng ngay tại module venv) trong Terminal
+ 
+ 
+2.	Cài đặt môi trường ảo: pip install virtualenv
+3.	Đặt tên cho môi trường ảo: python -m venv venv
+4.	Vào Bên trong thư mục venv: cd venv
+5.	Kích hoạt môi trường ảo: .\Scripts\activate
+6.	cd src
+7.	Cài đặt Django: pip install Django
+8.	Chạy dự án: python manage.py runserver
